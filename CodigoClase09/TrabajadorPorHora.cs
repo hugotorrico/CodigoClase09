@@ -20,7 +20,7 @@ namespace CodigoClase09
         }
 
         public override void MostrarInformacion()
-        {
+        {          
             //Base: Hace referencia a la clase
             base.MostrarInformacion();            
             Console.WriteLine($"Horas Trabajadas: {HorasTrabajadas}");

@@ -29,10 +29,10 @@ class Program
             Nombre = "María",
             SalarioBase = 3000m
         };
+
         listaTrabajadores.Add(trabajador1);//Objeto del padre
         listaTrabajadores.Add(trabajadorPorHora);//Objeto del hijo
         listaTrabajadores.Add(trabajadorAsalariado);//Objeto del hijo
-
 
 
         foreach (Trabajador trabajador in listaTrabajadores)
@@ -44,8 +44,6 @@ class Program
         }
 
        
-
-
         Console.Read();
     }
 }

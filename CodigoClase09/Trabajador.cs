@@ -16,12 +16,6 @@ namespace CodigoClase09
             return SalarioBase;
         }
 
-        public   void MostrarNombres()
-        {
-            Console.WriteLine($"Nombre: {Nombre}");
-        }
-
-       
         public virtual void MostrarInformacion()
         {
             Console.WriteLine($"Nombre: {Nombre}");
