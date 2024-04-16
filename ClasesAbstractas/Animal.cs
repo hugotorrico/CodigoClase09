@@ -12,7 +12,8 @@ namespace ClasesAbstractas
         // Método abstracto
         public abstract void HacerSonido();//Firma del método
         public abstract void Comer();//Firma del método
-                                     // Método concreto
+                
+        //Implementar
         public void Dormir()
         {
             Console.WriteLine("Zzz...");
